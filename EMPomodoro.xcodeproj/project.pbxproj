@@ -454,7 +454,7 @@
 				INFOPLIST_FILE = EMPomodoro/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhengya.EMPomodoro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuximao.pomodoro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -466,7 +466,7 @@
 				INFOPLIST_FILE = EMPomodoro/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhengya.EMPomodoro;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yuximao.pomodoro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

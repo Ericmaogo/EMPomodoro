@@ -7,7 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "EMPomodoroConfig.h"
 
 @interface EMPomodoroConfigManager : NSObject
+
+@property (nonatomic, strong) EMPomodoroConfig *pomodoroConfig;
+
++ (id)shareInstance;
 
 @end

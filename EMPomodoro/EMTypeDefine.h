@@ -9,5 +9,16 @@
 #ifndef EMTypeDefine_h
 #define EMTypeDefine_h
 
+#define ButtonBorderLineWidth   0.5
+
+typedef NS_ENUM(NSInteger, EMViewTag) {
+    EMViewTag_Init,
+    EMViewTag_Main_Start_Button,
+    EMViewTag_Main_Stop_Button,
+    EMViewTag_Main_Continue_Button,
+    EMViewTag_Main_GiveUp_Button,
+};
+
+
 
 #endif /* EMTypeDefine_h */

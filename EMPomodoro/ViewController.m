@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "EMPomodoroMainView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self loadMainView];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)loadMainView
+{
+    EMPomodoroMainView *mainView = [[EMPomodoroMainView alloc] initWithFrame:self.view.frame];
+    [self.view addSubview:mainView];
 }
+
+
 
 @end

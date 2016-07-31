@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@interface EMPomodoroConfig : NSObject
+@interface EMPomodoroConfig : NSObject <NSCoding>
+
+@property (nonatomic, strong) NSNumber *potatoTime;
+@property (nonatomic, strong) NSNumber *restTime;
 
 @end

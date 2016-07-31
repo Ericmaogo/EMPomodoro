@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "-[EMPomodoroMainView setPomodoroState:]:EMPomodoroMainView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.startButton">
+            </PersistentString>
+            <PersistentString
+               value = "self.giveUpButton">
+            </PersistentString>
+            <PersistentString
+               value = "self.continueButton">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[EMTimeProgressView initWithFrame:]:EMTimeProgressView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.timer">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "-[EMPomodoroMainView showStartButton]:EMPomodoroMainView.m">
+         <PersistentStrings>
+            <PersistentString
+               value = "button">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

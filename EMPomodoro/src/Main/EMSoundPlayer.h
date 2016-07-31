@@ -10,4 +10,7 @@
 
 @interface EMSoundPlayer : NSObject
 
++ (id)shareInstance;
+- (void)playSound;
+- (void)stopPlay;
 @end

@@ -8,6 +8,27 @@
 
 #import <UIKit/UIKit.h>
 
-@interface EMPomodoroMainView : UIView
+typedef NS_ENUM(NSInteger, PomodoroState) {
+    PomodoroState_Undefine,
+    PomodoroState_init,
+    PomodoroState_Started,
+    PomodoroState_Stoped,
+    PomodoroState_GiveUped
+};
 
+@class EMPomodoroMainView;
+
+@protocol EMPomodoroMainViewDelegate <NSObject>
+
+- (void)onPomodoroStart:(EMPomodoroMainView *)pomodoroMainView;
+- (void)onPomodoroStop:(EMPomodoroMainView *)pomodoroMainView;
+- (void)onPomodoroContinue:(EMPomodoroMainView *)pomodoroMainView;
+- (void)onPomodoroGiveUp:(EMPomodoroMainView *)pomodoroMainView;
+
+@end
+
+@interface EMPomodoroMainView : UIView
+@property (nonatomic, assign) PomodoroState currentState;
+
+- (void)setPomodoroState:(PomodoroState)state;
 @end

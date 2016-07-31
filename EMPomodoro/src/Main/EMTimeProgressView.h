@@ -8,6 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+@class EMTimeProgressView;
+
+@protocol EMTimeProgressViewDelegate <NSObject>
+
+- (void)progressViewTimeComplete:(EMTimeProgressView *)progressView;
+
+@end
+
 @interface EMTimeProgressView : UIView
 
+@property (nonatomic, weak) id<EMTimeProgressViewDelegate> delegate;
+
+- (void)stopTimer;
+- (void)startTimer;
+- (void)resetTimer;
 @end

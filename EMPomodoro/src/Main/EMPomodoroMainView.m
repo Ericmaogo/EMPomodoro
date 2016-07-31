@@ -11,7 +11,7 @@
 #import "EMTypeDefine.h"
 #import "EMSoundPlayer.h"
 
-#define ButtonToBottomMargin    100.0
+#define ButtonToBottomMargin    80.0
 #define ButtonHeight            45.0
 
 @interface EMPomodoroMainView () <EMTimeProgressViewDelegate>
@@ -54,8 +54,8 @@
 - (void)showTimeProgressView
 {
     if (self.timeProgressView == nil) {
-        CGFloat circleWidth = 250.0;
-        CGFloat topMargin   = 100.0;
+        CGFloat circleWidth = 220.0;
+        CGFloat topMargin   = 80.0;
         CGFloat screenWidth = [UIScreen mainScreen].bounds.size.width;
         
         EMTimeProgressView *timeProgewssView = [[EMTimeProgressView alloc] initWithFrame:CGRectMake(0, 0, circleWidth, circleWidth)];
